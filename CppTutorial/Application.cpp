@@ -57,8 +57,7 @@ void StartAveragesExercise()
 }
 
 /// <summary>
-/// Defines a string of different symbols.
-/// Then uses 'LetterCounter' function to 
+/// Defines a list of text and words. Checks if the word is inside the text.
 /// </summary>
 void StartStringCheckerExercise()
 {
@@ -77,7 +76,7 @@ void StartStringCheckerExercise()
 
 /// <summary>
 /// Defines symbol with which to draw a grid.
-
+/// Defines the grid size and then draws it.
 /// </summary>
 void StartDrawGridExercise() {
 	char symbol[] = { 'A', 'S', 'C', 'I', 'I' };
