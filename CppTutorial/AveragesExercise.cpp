@@ -10,5 +10,18 @@ using namespace std;
 void CalculateAverageTemperature(double arrayOfTemperatures[], int arraySize)
 {
 	// Solve the exercise:
+	double Sum = 0;
+	double Average = 0;
+	int Count = 0;
 
+	for (int i = 0; i < arraySize; i++) {
+		Sum = Sum + arrayOfTemperatures[i];
+		Count++;
+	}
+
+	Average = Sum / Count;
+
+	if (Count > 0) {
+		cout << Average;
+	}
 }
