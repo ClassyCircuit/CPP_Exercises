@@ -55,7 +55,7 @@ void StartAveragesExercise()
 	// calculates average temperature
 	CalculateAverageTemperature(temperatures, arraySize);
 }
-
+ 
 /// <summary>
 /// Defines a list of text and words. Checks if the word is inside the text.
 /// </summary>
