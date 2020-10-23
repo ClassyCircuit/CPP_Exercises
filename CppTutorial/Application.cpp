@@ -77,7 +77,7 @@ void StartStringCheckerExercise()
 
 /// <summary>
 /// Defines symbol with which to draw a grid.
-
+/// Defines the grid size and then draws it.
 /// </summary>
 void StartDrawGridExercise() {
 	char symbol[] = { 'A', 'S', 'C', 'I', 'I' };
