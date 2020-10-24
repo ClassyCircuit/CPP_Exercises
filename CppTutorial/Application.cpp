@@ -57,11 +57,12 @@ void StartAveragesExercise()
 }
  
 /// <summary>
-/// Defines a list of text and words. Checks if the word is inside the text.
+/// Defines a list of text and words.
+/// Checks if the word is inside the text.
 /// </summary>
 void StartStringCheckerExercise()
 {
-	string Data[4][4] = { {"Bird is flying around", "Bird"}, 
+	string Data[4][2] = { {"Bird is flying around", "Bird"}, 
 						   {"Hippo is swimming", "Cat"}, 
 						   {"Squirrel is climbing a tree", "tree"}, 
 						   {"Cat is sleeping", "dog"}

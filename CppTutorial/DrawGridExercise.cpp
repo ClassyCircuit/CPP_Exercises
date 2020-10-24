@@ -14,5 +14,12 @@ using namespace std;
 void DrawGrid(char gridSymbol, int columns, int rows)
 {
 	// Solve the exercise:
+	for (int i = 0; i < rows; i++) {
+		for (int j = 0; j < columns; j++) {
 
+			cout << gridSymbol;
+		}
+		cout << endl;
+	}
+	cout << endl;
 }
