@@ -17,6 +17,7 @@ void CheckIfTextContainsWord(string text, string word)
 		cout << endl;
 	}
 	else {
+		//test comment
 		cout << "Does text contain the word: False" << endl;
 		cout << endl;
 	}
